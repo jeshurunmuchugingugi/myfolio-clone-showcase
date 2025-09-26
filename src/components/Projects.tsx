@@ -39,8 +39,8 @@ const Projects = () => {
   return (
     <section className="py-20 bg-card/30">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+        <div className="text-center mb-16 animate-fade-in-up">
+          <h2 className="text-5xl lg:text-6xl font-bold text-foreground mb-6">
             Selected Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -52,7 +52,8 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div 
               key={index}
-              className="group bg-card border border-border rounded-2xl overflow-hidden hover:scale-105 transition-all duration-300 cursor-pointer"
+              className="group bg-card border border-border rounded-2xl overflow-hidden hover-scale cursor-pointer animate-fade-in"
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="aspect-video overflow-hidden">
                 <img 

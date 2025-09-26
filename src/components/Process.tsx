@@ -30,9 +30,9 @@ const Process = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
-          <div className="space-y-8">
+          <div className="space-y-8 animate-fade-in-up">
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+              <h2 className="text-5xl lg:text-6xl font-bold text-foreground mb-6">
                 My process that
                 <br />
                 <span className="gradient-text">help my clients to</span>
@@ -51,9 +51,13 @@ const Process = () => {
           </div>
           
           {/* Right Content - Process Steps */}
-          <div className="space-y-8">
+          <div className="space-y-8 animate-slide-in-right">
             {steps.map((step, index) => (
-              <div key={index} className="flex gap-6 group">
+              <div 
+                key={index} 
+                className="flex gap-6 group animate-fade-in"
+                style={{ animationDelay: `${index * 0.2}s` }}
+              >
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 gradient-bg rounded-full flex items-center justify-center text-white font-bold text-lg">
                     {step.number}

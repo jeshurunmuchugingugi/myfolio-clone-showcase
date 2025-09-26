@@ -101,7 +101,50 @@ All colors MUST be HSL.
   }
   
   .hero-bg {
-    background: radial-gradient(ellipse at center, hsl(var(--gradient-start) / 0.1) 0%, transparent 70%);
+    background: radial-gradient(ellipse at center, hsl(var(--gradient-start) / 0.08) 0%, transparent 70%);
+  }
+
+  .hover-scale {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+
+  .story-link {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .story-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: hsl(var(--primary));
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .story-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  /* Custom animations for specific elements */
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .animate-on-scroll.in-view {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
