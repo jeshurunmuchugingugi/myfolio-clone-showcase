@@ -10,14 +10,14 @@ const Hero = () => {
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-6 animate-fade-in-up">
-              <h1 className="text-7xl lg:text-8xl font-bold leading-tight">
+              <h1 className="text-6xl lg:text-7xl font-bold leading-tight">
                 <span className="gradient-text">Digital designer</span>
                 <br />
                 <span className="text-hero-text">crafting products</span>
                 <br />
                 <span className="text-hero-text">that people love</span>
               </h1>
-              <p className="text-xl text-muted-foreground max-w-lg leading-relaxed animate-fade-in" style={{ animationDelay: "0.3s" }}>
+              <p className="text-lg text-muted-foreground max-w-lg leading-relaxed animate-fade-in" style={{ animationDelay: "0.3s" }}>
                 I'm David Louis— a designer who works with startups looking to push creative boundaries and create unique user experiences.
               </p>
             </div>

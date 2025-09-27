@@ -40,11 +40,11 @@ const Projects = () => {
     <section className="py-20 bg-card/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-5xl lg:text-6xl font-bold text-foreground mb-6">
-            Selected Projects
+          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            Selected <span className="gradient-text">Projects</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Over the years, I've partnered with startups of all sizes and various stages to create some truly unique products. Here are a few that I feel were the most challenging yet rewarding.
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            I have selected and mentioned here some of my latest projects to share with you.
           </p>
         </div>
         

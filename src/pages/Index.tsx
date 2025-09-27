@@ -4,6 +4,10 @@ import CompanyLogos from "@/components/CompanyLogos";
 import Services from "@/components/Services";
 import Projects from "@/components/Projects";
 import Process from "@/components/Process";
+import About from "@/components/About";
+import Testimonials from "@/components/Testimonials";
+import BlogSection from "@/components/BlogSection";
+import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -15,6 +19,10 @@ const Index = () => {
       <Services />
       <Projects />
       <Process />
+      <About />
+      <Testimonials />
+      <BlogSection />
+      <CTA />
       <Footer />
     </div>
   );

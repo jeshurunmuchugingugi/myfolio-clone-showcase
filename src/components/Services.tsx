@@ -5,17 +5,17 @@ const Services = () => {
     {
       icon: <Palette className="w-8 h-8" />,
       title: "Website Design",
-      description: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate"
+      description: "I created digital products with unique ideas use Figma & Framer"
     },
     {
       icon: <Search className="w-8 h-8" />,
       title: "SEO Marketing", 
-      description: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate"
+      description: "I build website front-end with coding or using Webflow, Framer"
     },
     {
       icon: <Globe className="w-8 h-8" />,
-      title: "WF Development",
-      description: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate"
+      title: "UI/UX Design",
+      description: "I do research & create user personas to design the best user experience"
     }
   ];
 
@@ -23,11 +23,11 @@ const Services = () => {
     <section className="py-20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-5xl lg:text-6xl font-bold text-foreground mb-6">
-            Look at my services
+          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            Look at my <span className="gradient-text">services</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            If you are looking for someone who will help you to build your digital web presence than congratulations!
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            I help companies from all over the world with tailor-made solutions. With each project, I push my work to new horizons, always putting quality first.
           </p>
         </div>
         

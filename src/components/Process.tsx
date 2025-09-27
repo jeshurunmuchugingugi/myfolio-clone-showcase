@@ -32,15 +32,13 @@ const Process = () => {
           {/* Left Content */}
           <div className="space-y-8 animate-fade-in-up">
             <div>
-              <h2 className="text-5xl lg:text-6xl font-bold text-foreground mb-6">
-                My process that
-                <br />
-                <span className="gradient-text">help my clients to</span>
-                <br />
+              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+                My process that <br />
+                help my clients to <br />
                 <span className="gradient-text">2x their revenue</span>
               </h2>
-              <p className="text-xl text-muted-foreground mb-8">
-                I discover this process working more than 10+ in the design industry that why you can trust blindly
+              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                I help companies from all over the world with tailor-made solutions. With each project, I push my work to new horizons, always putting quality first.
               </p>
             </div>
             
